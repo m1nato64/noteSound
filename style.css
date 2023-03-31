@@ -527,4 +527,59 @@ header .song_Side nav img {
     box-shadow: 2px 2px 8px #121213;
 }
 
+header .song_Side .content {
+    width: 90%;
+    height: 30%;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    padding: top 20px;;
+}
 
+header .song_Side .content h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+header .song_Side .content p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #8090A6;
+    margin: 5px;
+}
+
+header .song_Side .content .buttons {
+    margin-top: 15px;
+}
+
+header .song_Side .content .buttons button {
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+header .song_Side .content .buttons button:hover {
+    background: none;
+    color: #36e2ec;
+}
+
+header .song_Side .content .buttons button:nth-child(2) {
+    background: none;
+    color: #36e2ec;
+}
+
+header .song_Side .content .buttons button:nth-child(2):hover {
+    background: #36e2ec;
+    color: #FFF;
+}
+
+header .song_Side .popularSong {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    mar
+}
